@@ -13,7 +13,7 @@ const categories = [
   'Behind-The-Scenes'
 ];
 
-function Photogallary() {
+function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const filteredImages =
@@ -46,4 +46,4 @@ function Photogallary() {
   );
 }
 
-export default Photogallary;
+export default App;
